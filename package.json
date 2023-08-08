@@ -1,0 +1,24 @@
+{
+  "name": "cypress-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "tsc --noEmit"
+  },
+  "pre-commit": [
+    "lint"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.17.3",
+    "cypress-plugin-api": "^2.11.1",
+    "cypress-real-events": "^1.10.0"
+  },
+  "devDependencies": {
+    "@applitools/eyes-cypress": "^3.35.0",
+    "pre-commit": "^1.2.2",
+    "typescript": "^5.1.6"
+  }
+}

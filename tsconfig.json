@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "es5",
+      "dom"
+    ],
+    "types": [
+      "cypress",
+      "node",
+      "cypress-real-events",
+      "@applitools/eyes-cypress"
+    ],
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "baseUrl": "https://google.com",
+    "paths": {
+      "@fixtures/*":[
+        "cypress/fixtures/*"
+      ]
+    }
+  },
+  "files": ["cypress/support/index.d.ts"],
+  "include": [
+    "**/*.ts"
+  ]
+}
